@@ -109,6 +109,10 @@ ggplot() +
   si_style_map()
 
 
+#Try to Add water geo data
+
+#http://zevross.com/blog/2014/07/16/mapping-in-r-using-the-ggplot2-package/
+
 proj4string(cntry)#doesn't work, check prj file for D_WGS_1984
 
 water_uga<-water %>% 
